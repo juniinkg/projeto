@@ -44,8 +44,10 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 /*profile*/
@@ -137,7 +139,7 @@ ul > li > a {
 }
 
 ul li a:hover {
-  border: 1.5px solid var(--text-color);
+  border-bottom: 1.5px solid var(--text-color);
   background-color: var(--surface-color-hover);
 }
 
