@@ -143,9 +143,8 @@ ul > li > a {
   transition: all 0.2s;
 }
 
-ul li a:hover {
-  border-bottom: 1.5px solid var(--text-color);
-  background-color: var(--surface-color-hover);
+ul > li:hover {
+  background: var(--highlight-color);
 }
 
 /* social links */
